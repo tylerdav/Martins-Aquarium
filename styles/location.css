@@ -1,0 +1,18 @@
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+  }
+  
+  
+  .location__card {
+    flex-basis: 28%;
+    width: 28%;
+    border: 2px dotted cyan;
+    padding: 0 8px;
+    margin: 0 4px;
+    margin-bottom: 8px;
+  }
+  
