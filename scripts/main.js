@@ -6,7 +6,16 @@
 import initializeDetailButtonEvents from './dialogs.js'
 import addMouseOverEventListeners from './highlight.js'
 import borderColorChange from './asideBorder.js'
+import { useFish } from './FishDataProvider.js'
 
 initializeDetailButtonEvents()
 addMouseOverEventListeners()
 borderColorChange()
+
+const allOfTheFish = useFish ()
+
+console.log("all of the fish:", allOfTheFish)
+
+for(const fish of allOfTheFish)
+  console.log("individual fish object:", fish)
+  
