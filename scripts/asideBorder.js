@@ -3,7 +3,7 @@ const borderColorChange = () => {
 
     for (const tip of tipDivs) {
         tip.addEventListener("mouseover", function (event) {
-            tip.style.border = "1px dotted yellow";
+            tip.style.border = "1px dotted cyan";
 
         })
         

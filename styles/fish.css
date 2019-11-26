@@ -1,25 +1,22 @@
 
-.fishies {
+  .fishList {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 68%;
     justify-content: space-evenly;
   }
 
-  .fishies__card {
-    flex-basis: 28%;
-    width: 28%;
-    border: 2px dotted gray;
+
+  .highlightFish {
+    background-color: cyan;
+    color: currentColor;
+  }
+  article.fishList {
+    flex-basis: 65%;
+  }
+  
+  section.fishList {
     padding: 0 8px;
     margin: 0 4px;
     margin-bottom: 8px;
   }
-  @media (max-width: 600px) {
-    .fishies {
-       flex-basis: 100%;
-    }
   
-    aside {
-       flex-basis: 100%;
-    }
-  }  

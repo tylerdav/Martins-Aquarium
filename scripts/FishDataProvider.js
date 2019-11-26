@@ -4,55 +4,55 @@
 const fishCollection = [
     {
         name: "Doug",
-        diet: "fish",
-        species: "dolphine",
-        location: "miami",
+        image: "images/miamidolphin.jpg",
+        species: "dolphin",
+        location: "Miami",
         length: 50,
-        image: "goldie-fish.jpg"
+        food: ["food","food"],
     },
     {
-        name: "Bert",
-        diet: "fish",
-        species: "fish",
-        location: "ocean",
+        name: "Goldie",
+        image: "images/goldie.jpg",
+        species: "goldfish",
+        location: "Pet Smart",
         length: 5,
-        image: "goldie-fish.jpg"
-
-    },
-    {
-        name: "Tina",
-        diet: "crab",
-        species: "Piranha",
-        location: "Brazil",
-        length: 30,
-        image: "goldie-fish.jpg"
+        food: ["flakes","more flakes"],
 
     },
     {
         name: "Bart",
-        diet: "flakes",
-        species: "tuna",
-        location: "sea",
-        length: 40,
-        image: "goldie-fish.jpg"
+        image: "images/barracuda.jpg",
+        species: "barracuda",
+        location: "gulf of mexico",
+        length: 30,
+        food: ["fish", "scraps"],
 
     },
     {
-        name: "fart",
-        diet: "flakes",
-        species: "fish",
-        location: "sea",
+        name: "Paul",
+        image: "images/piranha.jpg",
+        species: "piranha",
+        location: "Brazil",
         length: 40,
-        image: "goldie-fish.jpg"
+        food: ["anything","everything"],
 
     },
     {
-        name: "lard",
-        diet: "fish",
-        species: "whale",
-        location: "sea",
+        name: "toothy",
+        image: "images/shark.jpg",
+        species: "shark",
+        location: "South Africa",
+        length: 40,
+        food: ["big fish","small fish"],
+
+    },
+    {
+        name: "freaky",
+        image: "images/anglerfish.jpg",
+        species: "anglerfish",
+        location: "Mariana Trench",
         length: 1000,
-        image: "goldie-fish.jpg"
+        food: ["small fish","and other things"],
 
     }
 ]

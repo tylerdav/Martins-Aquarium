@@ -13,12 +13,7 @@ body {
 }
 
 img {
-  max-width: 100%;
-}
-
-.highlightFish {
-  background-color: darkorange;
-  color: lightgoldenrodyellow;
+  max-width: 150px;
 }
 
 aside{
